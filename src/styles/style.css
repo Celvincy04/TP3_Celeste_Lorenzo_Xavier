@@ -6,3 +6,6 @@
 
 /* ---------------------------Bonhomme----------------------------- */
 @import "./components/bonhomme.css";
+
+/* ---------------------------Planètes----------------------------- */
+@import "./components/planetes.css";
