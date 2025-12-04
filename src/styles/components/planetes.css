@@ -1,13 +1,17 @@
+.soleil img{
+    scale: 1;
+}
+
 .mercure img{
-    scale: 0.5;
+    scale: 0.4;
 }
 
 .venus img{
-    scale: 0.6;
+    scale: 0.55;
 }
 
 .terre img{
-    scale: 0.5;
+    scale: 0.6;
 }
 
 .mars img{
@@ -15,19 +19,19 @@
 }
 
 .jupiter img{
-    scale: 0.5;
+    scale: 0.8;
 }
 
 .saturne img{
-    scale: 0.5;
+    scale: 0.95;
 }
 
 .uranus img{
-    scale: 0.5;
+    scale: 1; 
 }
 
 .neptune img{
-    scale: 0.5;
+    scale: 0.55;
 }
 
 .pluton img{
