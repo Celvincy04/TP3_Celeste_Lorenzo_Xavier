@@ -1,7 +1,35 @@
 .mercure img{
-    width: 512px;
+    scale: 0.5;
 }
 
 .venus img{
     scale: 0.6;
+}
+
+.terre img{
+    scale: 0.5;
+}
+
+.mars img{
+    scale: 0.5;
+}
+
+.jupiter img{
+    scale: 0.5;
+}
+
+.saturne img{
+    scale: 0.5;
+}
+
+.uranus img{
+    scale: 0.5;
+}
+
+.neptune img{
+    scale: 0.5;
+}
+
+.pluton img{
+    scale: 0.2;
 }
