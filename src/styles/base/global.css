@@ -12,3 +12,18 @@ body{
 
     
 }
+
+@media screen and (width <= 823px) {
+    body{
+        background: url("./PasLeBonFormat.png"), #191919;
+        background-repeat: no-repeat;
+        background-position: top center;
+        
+    }
+    .corpsCelestes{
+        display: none;
+    }
+    .bonhommes{
+        display: none;
+    }
+}

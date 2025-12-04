@@ -1,3 +1,29 @@
-.bonhomme{
-    position: fixed;
+.bonhommes{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bonhommeChiasse{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bonhommeSaut{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bonhommeGymnaste{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bonhommeImmobile{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
