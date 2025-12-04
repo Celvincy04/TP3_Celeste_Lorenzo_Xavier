@@ -1,10 +1,16 @@
 .soleil img{
     scale: 1;
+    
 }
 
-.mercure img{
+.mercure img, .mercure:hover{
     scale: 0.4;
+
 }
+.mercure:hover{
+    background-image: url(public/Planetes/PlanetesHover/MercureHover.png);
+}
+
 
 .venus img{
     scale: 0.55;
