@@ -13,6 +13,27 @@ body{
     
 }
 
+.etoileFill01{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.etoileFill02{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.etoileFill03{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
 @media screen and (width <= 823px) {
     body{
         background: url("./PasLeBonFormat.png"), #191919;
@@ -24,6 +45,15 @@ body{
         display: none;
     }
     .bonhommes{
+        display: none;
+    }
+    .etoileFill01{
+        display: none;
+    }
+    .etoileFill02{
+        display: none;
+    }
+    .etoileFill03{
         display: none;
     }
 }
