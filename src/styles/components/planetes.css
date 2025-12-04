@@ -2,23 +2,37 @@
     scale: 1;
     
 }
+/* ---------------- Soleil --------------- */
+/* ---------------- Mercure --------------- */
+.mercure img{
+    scale: 0.45;
+    transition: all ease 0.3s;
+}
 
-.mercure img, .mercure:hover{
-    scale: 0.4;
+.mercure:hover img{
 
 }
-.mercure:hover{
-    background-image: url(public/Planetes/PlanetesHover/MercureHover.png);
-}
+/* ---------------- Mercure --------------- */
 
 
 .venus img{
     scale: 0.55;
+    transition: all ease 0.3s;
 }
+
+.venus:hover img{
+
+}
+
 
 .terre img{
     scale: 0.6;
 }
+
+.terre:hover img{
+
+}
+
 
 .mars img{
     scale: 0.5;
