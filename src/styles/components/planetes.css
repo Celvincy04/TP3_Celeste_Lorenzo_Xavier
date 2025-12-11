@@ -3,8 +3,8 @@
 }
 
 .soleil{
-    scale: 1;
-    
+    scale: 0.3;
+
 }
 /* ---------------- Soleil --------------- */
 /* ---------------- Mercure --------------- */
@@ -26,11 +26,6 @@
     scale: 0.4;
 }
 
-.terre:hover{
-
-}
-
-
 .mars{
    scale: 0.3;
 }
@@ -39,7 +34,7 @@
     scale: 0.5;
 }
 
- .saturne{  
+ .saturne{
    scale: 1;        /*a changer */
 }
 
@@ -60,15 +55,15 @@
 
 
 .mercureInfo{
-    
+
     justify-content: center;
     align-items: center;
 
     position: sticky;
     bottom: 20%;
     left: 40%;
-    
-    display: ;
+
+    /* display: ; */
 
 
     width: 500px;
@@ -85,9 +80,9 @@
     x: 50%;
     bottom: 20%;
     left: 40%;
-    
 
-    
+
+
 
 
     width: 500px;

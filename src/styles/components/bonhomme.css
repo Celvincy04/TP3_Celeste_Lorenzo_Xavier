@@ -1,29 +1,34 @@
 .bonhommes{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 2000px;
+    scale: 0.5;
 }
 
 .bonhommeChiasse{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1000px;
+    scale: 0.5;
 }
 
 .bonhommeSaut{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1000px;
+    scale: 0.5;
 }
 
 .bonhommeGymnaste{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1000px;
+    scale: 0.5;
 }
 
 .bonhommeImmobile{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 1000px;
+    scale: 0.5;
 }
