@@ -1,3 +1,4 @@
+//--------------fait par Xavier---------//
 let bonhomme = new Image();
 bonhomme.src = "Bonhomme_Immobile.png";
 
@@ -48,3 +49,4 @@ export default class Bonhomme{
         this.img.style.left = this.x + "px";
     }  
 }
+//--------------fait par Xavier---------//

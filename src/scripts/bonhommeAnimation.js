@@ -1,3 +1,4 @@
+//--------------fait par Xavier---------//
 import Bonhomme from "./bonhomme";
 
 const board = document.getElementById("monCanvas");
@@ -11,3 +12,4 @@ setInterval(boucleDeJeu, 10);
 function boucleDeJeu(){
     actor.update();
 }
+//--------------fait par Xavier---------//
