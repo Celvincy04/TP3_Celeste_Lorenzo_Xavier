@@ -17,15 +17,9 @@ export default (() => {
         mercure.querySelector("img").src="Planetes/Mercure.png"
     })
 
-    
-    // const infoMercure = document.createElement('div');
-    //     infoMercure.className = "infoMercure";
 
     mercure.addEventListener("click", (event) => {
-        
-
-        // infoMercure.document.createElement('div');
-        // infoMercure.classList.add('infoMercure');
+        document.querySelector(".mercureInfo").classList.toggle("mercureHidden")
     })
    
 
