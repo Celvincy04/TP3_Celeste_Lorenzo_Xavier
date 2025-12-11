@@ -31,8 +31,29 @@ body{
 .etoileFill03{
     position: absolute;
     top: -700px;
-    left: 4500px;
+    left: 4000px;
 
+}
+
+.etoileFill04{
+    position: absolute;
+    top: -700px;
+    left: 5000px;
+
+}
+
+.etoileFill05{
+    position: absolute;
+    top: -900px;
+    left: 7500px;
+
+
+}
+
+.etoileFill06{
+    position: absolute;
+    top: -700px;
+    left: 9000px;
 }
 
 @media (orientation: portrait) {

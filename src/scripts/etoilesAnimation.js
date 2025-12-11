@@ -47,5 +47,51 @@ export default (()=>{
 
         },
     })
+    const element4 = document.querySelector(".etoileFill04");
+
+    gsap.to(element4, {
+        x: -2000,
+        y: 1900,
+        duration: 3,
+        delay: 4,
+        repeatDelay: 5,
+        repeat: -1,
+
+
+        onRepeat: () => {
+
+        },
+    })
+    const element5 = document.querySelector(".etoileFill05");
+
+    gsap.to(element5, {
+        x: -2000,
+        y: 1900,
+        duration: 5,
+        delay: 2,
+        repeatDelay: 5,
+        repeat: -1,
+
+
+        onRepeat: () => {
+
+        },
+    })
+
+    const element6 = document.querySelector(".etoileFill06");
+
+    gsap.to(element6, {
+        x: -2000,
+        y: 1900,
+        duration: 2,
+        delay: 4,
+        repeatDelay: 5,
+        repeat: -1,
+
+
+        onRepeat: () => {
+
+        },
+    })
 })();
     
