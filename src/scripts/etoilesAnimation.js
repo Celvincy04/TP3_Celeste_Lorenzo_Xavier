@@ -1,6 +1,8 @@
+// <------------ Fait par Celeste Animation dynamique 02 GSAP ANIMATION --------------------->
+
 import gsap from "gsap";
 
-
+//
 export default (()=>{
     const element = document.querySelector(".etoileFill01");
 
