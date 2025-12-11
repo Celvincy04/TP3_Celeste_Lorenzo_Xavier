@@ -18,7 +18,7 @@ export default class Bonhomme{
 
     ajouter(conteneur){
         this.element.classList.add("bonhomme");
-        this.img.src = "../Bonhomme/Bonhomme_Immobile.png";
+        this.img.src = "Bonhomme/Bonhomme_Immobile.png";
         this.img.alt = "Astronaute";
 
         conteneur.appendChild(this.img);
