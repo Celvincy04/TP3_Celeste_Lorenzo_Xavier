@@ -3,13 +3,15 @@
 }
 
 .soleil{
-    scale: 1;
-    
+    scale: 0.3;
+    cursor: pointer
+
 }
 /* ---------------- Soleil --------------- */
 /*--------------------------------------------- Mercure ------------------------------------------- */
 .mercure{
     scale: 0.45;
+    cursor: pointer
 }
 
 .mercureHidden{
@@ -17,7 +19,7 @@
 }
 
 .mercureInfo{
-    
+
     justify-content: center;
     align-items: center;
 

@@ -3,14 +3,21 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    height: 100vh;
     
 }
 
+.tourneEcran{
+    display: none;
+
+}
+
+
 body{
+
     background: url("./Planetes/Etoiles.png"), linear-gradient(to top, #0E0F35, #36004c);
     background-repeat: repeat;
     overflow-y: hidden;
-    
 }
 
 .etoileFill01{
@@ -31,20 +38,49 @@ body{
 .etoileFill03{
     position: absolute;
     top: -700px;
-    left: 4500px;
+    left: 4000px;
 
+}
+
+.etoileFill04{
+    position: absolute;
+    top: -700px;
+    left: 5000px;
+
+}
+
+.etoileFill05{
+    position: absolute;
+    top: -900px;
+    left: 7500px;
+
+
+}
+
+.etoileFill06{
+    position: absolute;
+    top: -700px;
+    left: 9000px;
 }
 
 @media (orientation: portrait) {
     body{
         background-color: #191919;
-        background-image: url("./PasLeBonFormat.png");
+        background-image: none;
 
         background-size: cover;
-        background-position: center;
+        background-position: flex-start;
         background-repeat: no-repeat;
-        min-height: 100vh;
+        height: 100vh;
 
+    }
+    .tourneEcran{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        scale: 0.3;
+        height: 100vh;
+        width: 100vw;
     }
     .contenu{
         display: none;
