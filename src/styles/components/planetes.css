@@ -4,48 +4,12 @@
     font-size: 2rem;
 }
 
-.soleil{
-    scale: 0.3;
-    cursor: pointer
-
-}
-
-.soleilHidden{
+/*-------------------------------------------- Mercure ---------------------------------------------- */
+.mercureHidden, .soleilHidden, .venusHidden, .terreHidden, .marsHidden, .jupiterHidden, .saturneHidden, .uranusHidden, .neptuneHidden, .plutonHidden{
     opacity: 0;
 }
 
-.soleilInfo{
-
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
-}
-/* ---------------- Soleil --------------- */
-/*--------------------------------------------- Mercure ------------------------------------------- */
-.mercure{
-    scale: 0.45;
-    cursor: pointer
-}
-
-.mercureHidden{
-    opacity: 0;
-}
-
-.mercureInfo{
+.mercureInfo, .soleilInfo, .venusInfo, .terreInfo, .marsInfo, .jupiterInfo, .saturneInfo, .uranusInfo, .neptuneInfo, .plutonInfo{
 
     justify-content: center;
     align-items: center;
@@ -66,245 +30,66 @@
     height: 700px;
     background-color: rgb(47, 29, 65);
 }
+/*--------------------------------------------- Venus ----------------------------------------------- */
+/*--------------------------------------------- Soleil ---------------------------------------------- */
+.soleil{
+    scale: 0.3;
+    cursor: pointer
+
+}
+/*--------------------------------------------- Soleil ---------------------------------------------- */
+/*--------------------------------------------- Mercure --------------------------------------------- */
+.mercure{
+    scale: 0.45;
+    cursor: pointer
+}
 /*-------------------------------------------- Mercure ---------------------------------------------- */
 /*--------------------------------------------- Venus ----------------------------------------------- */
 .venus{
     scale: 0.35;
-}
-
-.venusHidden{
-    opacity: 0;
-}
-
-.venusInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+    cursor: pointer
 }
 /*---------------------------------------------- Venus ----------------------------------------------- */
 /*---------------------------------------------- Terre ----------------------------------------------- */
 .terre{
     scale: 0.4;
-}
-
-.terreHidden{
-    opacity: 0;
-}
-
-.terreInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+    cursor: pointer
 }
 /*---------------------------------------------- Terre ----------------------------------------------- */
 /*----------------------------------------------- Mars ----------------------------------------------- */
 .mars{
    scale: 0.3;
-}
-
-.marsHidden{
-    opacity: 0;
-}
-
-.marsInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+   cursor: pointer
 }
 /*----------------------------------------------- Mars ----------------------------------------------- */
 /*--------------------------------------------- Jupiter ---------------------------------------------- */
 .jupiter{
     scale: 0.5;
-}
-
-.jupiterHidden{
-    opacity: 0;
-}
-
-.jupiterInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+    cursor: pointer
 }
 /*--------------------------------------------- Jupiter ---------------------------------------------- */
 /*--------------------------------------------- Saturne ---------------------------------------------- */
  .saturne{  
    scale: 0.8;
-}
-
-.saturneHidden{
-    opacity: 0;
-}
-
-.saturneInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+   cursor: pointer
 }
 /*--------------------------------------------- Saturne ---------------------------------------------- */
 /*---------------------------------------------- Uranus ---------------------------------------------- */
 .uranus{
     scale: 1;
-}
-
-.uranusHidden{
-    opacity: 0;
-}
-
-.uranusInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+    cursor: pointer
 }
 /*---------------------------------------------- Uranus ---------------------------------------------- */
 /*--------------------------------------------- Neptune ---------------------------------------------- */
 .neptune{
     scale: 0.3;
-}
-
-.neptuneHidden{
-    opacity: 0;
-}
-
-.neptuneInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+    cursor: pointer
 }
 /*--------------------------------------------- Neptune ---------------------------------------------- */
 /*---------------------------------------------- Pluton ---------------------------------------------- */
 .pluton{
     scale: 0.1;
-}
-
-.plutonHidden{
-    opacity: 0;
-}
-
-.plutonInfo{
-    
-    justify-content: center;
-    align-items: center;
-
-    position: fixed;
-    top: 10%;
-    left: 0%;
-    
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
-
-    color: #FFFFFF;
-    padding-left: 1%;
-
-    width: 500px;
-    height: 700px;
-    background-color: rgb(47, 29, 65);
+    cursor: pointer
 }
 /*---------------------------------------------- Pluton ---------------------------------------------- */
 
