@@ -15,8 +15,8 @@
 
 body{
 
-    background: url("./Planetes/Etoiles.png"), linear-gradient(to top, #0E0F35, #36004c);
-    background-repeat: repeat;
+    background: url("./Planetes/Etoiles.png"), radial-gradient( #0e3035, #0E0F35, #36004c,#5c0153);
+    background-size: 100%;
     overflow-y: hidden;
 }
 
