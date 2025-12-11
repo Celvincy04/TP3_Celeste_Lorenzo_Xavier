@@ -9,7 +9,7 @@
 body{
     background: url("./Planetes/Etoiles.png"), linear-gradient(to top, #0E0F35, #36004c);
     background-repeat: repeat;
-
+    overflow-y: hidden;
     
 }
 
@@ -35,26 +35,18 @@ body{
 
 }
 
-@media screen and (width <= 823px) {
+@media (orientation: portrait) {
     body{
-        background: url("./PasLeBonFormat.png"), #191919;
+        background-color: #191919;
+        background-image: url("./PasLeBonFormat.png");
+
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        background-position: top center;
-        
+        min-height: 100vh;
+
     }
-    .corpsCelestes{
-        display: none;
-    }
-    .bonhommes{
-        display: none;
-    }
-    .etoileFill01{
-        display: none;
-    }
-    .etoileFill02{
-        display: none;
-    }
-    .etoileFill03{
+    .contenu{
         display: none;
     }
 }
