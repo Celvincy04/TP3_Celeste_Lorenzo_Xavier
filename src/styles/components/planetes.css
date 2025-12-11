@@ -1,3 +1,6 @@
+
+/*------------------------------------------ Fait par Lorenzo------------------------------------------ */
+
 /*------------------------------------------ Zone de texte ------------------------------------------ */
 .titre{
     display: flex;
@@ -10,7 +13,7 @@
 
 /*------------------------------------------ Zone de texte ------------------------------------------ */
 .mercureHidden, .soleilHidden, .venusHidden, .terreHidden, .marsHidden, .jupiterHidden, .saturneHidden, .uranusHidden, .neptuneHidden, .plutonHidden{
-    left: -50% !important; 
+    left: -100% !important; 
 
     
 }
@@ -101,4 +104,36 @@
 }
 /*---------------------------------------------- Pluton ---------------------------------------------- */
 
+@media screen and (width <= 1280px) {
+    .mercureInfo, .soleilInfo, .venusInfo, .terreInfo, .marsInfo, .jupiterInfo, .saturneInfo, .uranusInfo, .neptuneInfo, .plutonInfo{
 
+    width: 300px;
+    height: 700px;
+}
+    .titre{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+    .texte{
+    font-size: 1rem
+}
+}
+
+@media screen and (height <= 700px) {
+    .mercureInfo, .soleilInfo, .venusInfo, .terreInfo, .marsInfo, .jupiterInfo, .saturneInfo, .uranusInfo, .neptuneInfo, .plutonInfo{
+
+    width: 300px;
+    height: 500px;
+}
+    .titre{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+    .texte{
+    font-size: 1.1rem
+}
+}
+
+/*------------------------------------------ Fait par Lorenzo------------------------------------------ */
