@@ -34,6 +34,11 @@ export default (() => {
     venus.addEventListener("mouseout", (event) => {
         venus.querySelector("img").src="Planetes/Venus.png"
     }) 
+
+
+    venus.addEventListener("click", (event) => {
+        document.querySelector(".venusInfo").classList.toggle("venusHidden")
+    })
 /*---------------------------------------------- Venus ----------------------------------------------- */
 /*---------------------------------------------- Terre ----------------------------------------------- */
     const terre = document.querySelector(".terre");
@@ -44,6 +49,11 @@ export default (() => {
 
     terre.addEventListener("mouseout", (event) => {
         terre.querySelector("img").src="Planetes/Terre.png"
+    })
+
+    
+    terre.addEventListener("click", (event) => {
+        document.querySelector(".terreInfo").classList.toggle("terreHidden")
     })
 /*---------------------------------------------- Terre ----------------------------------------------- */
 /*----------------------------------------------- Mars ----------------------------------------------- */
@@ -56,6 +66,11 @@ export default (() => {
     mars.addEventListener("mouseout", (event) => {
         mars.querySelector("img").src="Planetes/Mars.png"
     })
+
+    
+    mars.addEventListener("click", (event) => {
+        document.querySelector(".marsInfo").classList.toggle("marsHidden")
+    })
 /*----------------------------------------------- Mars ----------------------------------------------- */
 /*--------------------------------------------- Jupiter ---------------------------------------------- */
     const jupiter = document.querySelector(".jupiter");
@@ -66,6 +81,11 @@ export default (() => {
 
     jupiter.addEventListener("mouseout", (event) => {
         jupiter.querySelector("img").src="Planetes/Jupiter.png"
+    })
+
+    
+    jupiter.addEventListener("click", (event) => {
+        document.querySelector(".jupiterInfo").classList.toggle("jupiterHidden")
     })
 /*--------------------------------------------- Jupiter ---------------------------------------------- */
 /*--------------------------------------------- Saturne ---------------------------------------------- */
@@ -78,7 +98,12 @@ export default (() => {
     saturne.addEventListener("mouseout", (event) => {
         saturne.querySelector("img").src="Planetes/Saturne.png"
     })
-/*--------------------------------------------- Saturne ---------------------------------------------- */
+
+    
+    saturne.addEventListener("click", (event) => {
+        document.querySelector(".saturneInfo").classList.toggle("saturneHidden")
+    })
+/*--------------------------------------------- Saturne -uranus-------------------------------------- */
 /*---------------------------------------------- Uranus ---------------------------------------------- */
     const uranus = document.querySelector(".uranus");
     
@@ -88,6 +113,11 @@ export default (() => {
 
     uranus.addEventListener("mouseout", (event) => {
         uranus.querySelector("img").src="Planetes/Uranus.png"
+    })
+
+    
+    uranus.addEventListener("click", (event) => {
+        document.querySelector(".uranusInfo").classList.toggle("uranusHidden")
     })
 /*---------------------------------------------- Uranus ---------------------------------------------- */
 /*--------------------------------------------- Neptune ---------------------------------------------- */
@@ -100,6 +130,11 @@ export default (() => {
     neptune.addEventListener("mouseout", (event) => {
         neptune.querySelector("img").src="Planetes/Neptune.png"
     })
+
+    
+    neptune.addEventListener("click", (event) => {
+        document.querySelector(".neptuneInfo").classList.toggle("neptuneHidden")
+    })
 /*--------------------------------------------- Neptune ---------------------------------------------- */
 /*---------------------------------------------- Pluton ---------------------------------------------- */
     const pluton = document.querySelector(".pluton");
@@ -111,6 +146,11 @@ export default (() => {
     pluton.addEventListener("mouseout", (event) => {
         pluton.querySelector("img").src="Planetes/Pluton.png"
     })
+
+    
+    pluton.addEventListener("click", (event) => {
+        document.querySelector(".plutonInfo").classList.toggle("plutonHidden")
+    })
 /*---------------------------------------------- Pluton ---------------------------------------------- */
 /*-------------------------------------------------Lorenzo-----------------------------------------------------------*/
     const soleil = document.querySelector(".soleil");
@@ -121,5 +161,10 @@ export default (() => {
 
     soleil.addEventListener("mouseout", (event) => {
         soleil.querySelector("img").src="Planetes/Soleil1.png"
+    })
+
+    
+    soleil.addEventListener("click", (event) => {
+        document.querySelector(".soleilInfo").classList.toggle("soleilHidden")
     })
 })();
