@@ -14,7 +14,7 @@
 
 }
 /*--------------fait par Xavier---------*/
-/*--------------fait par Céleste---------*/
+/* ------------------------------------ Fait par Celeste Animation dynamique 01 -------------------------------------------- */
 body{
 
     background: url("../Planetes/Etoiles.png"), radial-gradient( #0e3035, #0E0F35, #36004c,#5c0153);
@@ -46,7 +46,8 @@ body{
         background-size: 110%;
     }
 }
-
+/* ------------------------------------ Fait par Celeste Animation dynamique 01 -------------------------------------------- */
+/* ------------------------------------ Fait par Celeste Animation dynamique 02 -------------------------------------------- */
 .etoileFill01{
     position: absolute;
     top: -700px;
@@ -89,7 +90,7 @@ body{
     top: -700px;
     left: 10000px;
 }
-/*--------------fait par Céleste---------*/
+/* ------------------------------------ Fait par Celeste Animation dynamique 02 -------------------------------------------- */
 /*--------------fait par Xavier---------*/
 @media (orientation: portrait) {
     body{
