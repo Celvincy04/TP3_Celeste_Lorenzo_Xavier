@@ -10,7 +10,9 @@
 
 /*------------------------------------------ Zone de texte ------------------------------------------ */
 .mercureHidden, .soleilHidden, .venusHidden, .terreHidden, .marsHidden, .jupiterHidden, .saturneHidden, .uranusHidden, .neptuneHidden, .plutonHidden{
-    opacity: 0;
+    left: -50% !important; 
+
+    
 }
 
 .mercureInfo, .soleilInfo, .venusInfo, .terreInfo, .marsInfo, .jupiterInfo, .saturneInfo, .uranusInfo, .neptuneInfo, .plutonInfo{
@@ -20,7 +22,8 @@
 
     position: fixed;
     top: 10%;
-    left: 0%;
+    left: 0;
+    
     
     border-top: 3px solid #FFFFFF;
     border-bottom: 3px solid #FFFFFF;
@@ -33,6 +36,8 @@
     width: 500px;
     height: 700px;
     background-color: rgb(47, 29, 65);
+    
+    transition: left 1s ease-out;
 }
 /*------------------------------------------ Zone de texte ------------------------------------------ */
 /*--------------------------------------------- Soleil ---------------------------------------------- */
