@@ -10,6 +10,9 @@ export default class Bonhomme{
         this.keyLeft = kL;
         this.keyRight = kR;
 
+        this.rightPress = false;
+        this.leftPress = false;
+
         this.element = document.createElement("img");
 
         this.ecouterTouches();
@@ -29,9 +32,11 @@ export default class Bonhomme{
     ecouterTouches(){
         document.addEventListener("keydown", (e) =>{
             if (e.key === this.keyLeft){
-                this.speedX = -12;
+                this.leftPress = true;
+                this.rightPress = false;
             } else if (e.key === this.keyRight){
-                this.speedX = 15;
+                this.rightPress = true;
+                this.leftPress = false;
             }
             console.log(e.key)
         });
@@ -44,8 +49,14 @@ export default class Bonhomme{
     }
 
     update(){
-        this.x += this.speedX;
 
+        if(this.leftPress) {
+            this.speedX = -12;
+        } else if (this.rightPress) {
+            this.speedX = 15;
+        }
+
+        this.x += this.speedX;
         this.img.style.left = this.x + "px";
     }  
 }
