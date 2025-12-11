@@ -11,3 +11,9 @@ export default document.addEventListener("keydown", (event) =>{
 const actor = new Actor (50, 50, 100, 100);
 
 Object.assign(actor);
+
+setInterval(boucleDeJeu, 10);
+function boucleDeJeu(){
+    ctx.clearRect(0,0, canvas.width, canvas.height)
+    actor.display
+}
