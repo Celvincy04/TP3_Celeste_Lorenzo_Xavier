@@ -4,12 +4,14 @@
 
 .soleil{
     scale: 0.3;
+    cursor: pointer
 
 }
 /* ---------------- Soleil --------------- */
 /* ---------------- Mercure --------------- */
 .mercure{
     scale: 0.45;
+    cursor: pointer
 }
 
 
@@ -18,36 +20,44 @@
 
 .venus{
     scale: 0.35;
+    cursor: pointer
 }
 
 
 
 .terre{
     scale: 0.4;
+    cursor: pointer
 }
 
 .mars{
    scale: 0.3;
+   cursor: pointer
 }
 
 .jupiter{
     scale: 0.5;
+    cursor: pointer
 }
 
  .saturne{
    scale: 1;        /*a changer */
+   cursor: pointer
 }
 
 .uranus{
     scale: 1;
+    cursor: pointer
 }
 
 .neptune{
     scale: 0.3;
+    cursor: pointer
 }
 
 .pluton{
     scale: 0.1;
+    cursor: pointer
 }
 
 
