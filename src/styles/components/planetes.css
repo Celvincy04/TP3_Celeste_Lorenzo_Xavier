@@ -1,59 +1,96 @@
-.soleil img{
+.pluton{
+    max-width: fit-content;
+}
+
+.soleil{
     scale: 1;
     
 }
 /* ---------------- Soleil --------------- */
 /* ---------------- Mercure --------------- */
-.mercure img{
+.mercure{
     scale: 0.45;
-    transition: all ease 0.3s;
 }
 
-.mercure:hover img{
 
-}
 /* ---------------- Mercure --------------- */
 
 
-.venus img{
-    scale: 0.55;
-    transition: all ease 0.3s;
-}
-
-.venus:hover img{
-
+.venus{
+    scale: 0.35;
 }
 
 
-.terre img{
-    scale: 0.6;
+
+.terre{
+    scale: 0.4;
 }
 
-.terre:hover img{
+.terre:hover{
 
 }
 
 
-.mars img{
+.mars{
+   scale: 0.3;
+}
+
+.jupiter{
     scale: 0.5;
 }
 
-.jupiter img{
-    scale: 0.8;
+ .saturne{  
+   scale: 1;        /*a changer */
 }
 
-.saturne img{
-    scale: 0.95;
+.uranus{
+    scale: 1;
 }
 
-.uranus img{
-    scale: 1; 
+.neptune{
+    scale: 0.3;
 }
 
-.neptune img{
-    scale: 0.55;
+.pluton{
+    scale: 0.1;
 }
 
-.pluton img{
-    scale: 0.2;
+
+
+
+
+.mercureInfo{
+    
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    bottom: 20%;
+    left: 40%;
+    
+    display: ;
+
+
+    width: 500px;
+    height: 700px;
+    background-color: aliceblue;
+}
+
+.infoMercure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    x: 50%;
+    bottom: 20%;
+    left: 40%;
+    
+
+    
+
+
+    width: 500px;
+    height: 700px;
+    background-color: rgb(255, 0, 0);
 }
