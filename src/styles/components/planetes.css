@@ -3,13 +3,15 @@
 }
 
 .soleil{
-    scale: 1;
-    
+    scale: 0.3;
+    cursor: pointer
+
 }
 /* ---------------- Soleil --------------- */
 /* ---------------- Mercure --------------- */
 .mercure{
     scale: 0.45;
+    cursor: pointer
 }
 
 
@@ -18,41 +20,44 @@
 
 .venus{
     scale: 0.35;
+    cursor: pointer
 }
 
 
 
 .terre{
     scale: 0.4;
+    cursor: pointer
 }
-
-.terre:hover{
-
-}
-
 
 .mars{
    scale: 0.3;
+   cursor: pointer
 }
 
 .jupiter{
     scale: 0.5;
+    cursor: pointer
 }
 
- .saturne{  
+ .saturne{
    scale: 1;        /*a changer */
+   cursor: pointer
 }
 
 .uranus{
     scale: 1;
+    cursor: pointer
 }
 
 .neptune{
     scale: 0.3;
+    cursor: pointer
 }
 
 .pluton{
     scale: 0.1;
+    cursor: pointer
 }
 
 
@@ -60,15 +65,15 @@
 
 
 .mercureInfo{
-    
+
     justify-content: center;
     align-items: center;
 
     position: sticky;
     bottom: 20%;
     left: 40%;
-    
-    display: ;
+
+    /* display: ; */
 
 
     width: 500px;
@@ -85,9 +90,9 @@
     x: 50%;
     bottom: 20%;
     left: 40%;
-    
 
-    
+
+
 
 
     width: 500px;

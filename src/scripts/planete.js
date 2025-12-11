@@ -5,6 +5,7 @@
 
 
 export default (() => {
+/*-------------------------------------------------Lorenzo-----------------------------------------------------------*/
 /*--------------------------------------------- Mercure ------------------------------------------- */
     const mercure = document.querySelector(".mercure");
     
@@ -117,4 +118,14 @@ export default (() => {
         pluton.querySelector("img").src="Planetes/Pluton.png"
     })
 /*---------------------------------------------- Pluton ---------------------------------------------- */
+/*-------------------------------------------------Lorenzo-----------------------------------------------------------*/
+    const soleil = document.querySelector(".soleil");
+    
+    soleil.addEventListener("mouseover", (event) => {
+        soleil.querySelector("img").src="Planetes/PlanetesHover/Soleil2.png"
+    })
+
+    soleil.addEventListener("mouseout", (event) => {
+        soleil.querySelector("img").src="Planetes/Soleil1.png"
+    })
 })();
