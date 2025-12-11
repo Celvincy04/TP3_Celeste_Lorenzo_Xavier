@@ -1,9 +1,9 @@
-import planete from "./planete.js";
+import "./planete.js";
 
 import "../styles/style.css";
 
-import { gsap } from "gsap";
+import "./etoilesAnimation.js";
 
-import etoilesAnimation from "./etoilesAnimation.js";
+import "./bonhommeAnimation.js";
 
 import "../styles/style.css";

@@ -78,7 +78,7 @@ body{
         display: flex;
         justify-content: center;
         align-self: center;
-        scale: 0.3;
+        scale: 0.5;
         height: 100vh;
         width: 100vw;
     }
