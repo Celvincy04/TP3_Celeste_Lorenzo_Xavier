@@ -1,19 +1,13 @@
-import Actor from "./bonhomme";
+import Bonhomme from "./bonhomme";
 
-let canvas = document.getElementById("monCanvas");
-let ctx = canvas.getContext("2d");
+const board = document.getElementById("monCanvas");
+ 
 
-export default document.addEventListener("keydown", (event) =>{
-    const parcour1 =document.querySelector("animationBonhomme1");
-    
-})
+const actor = new Bonhomme (1500, 0, "ArrowLeft", "ArrowRight");
+actor.ajouter(board);
 
-const actor = new Actor (50, 50, 100, 100);
-
-Object.assign(actor);
 
 setInterval(boucleDeJeu, 10);
 function boucleDeJeu(){
-    ctx.clearRect(0,0, canvas.width, canvas.height)
-    actor.display
+    actor.update();
 }

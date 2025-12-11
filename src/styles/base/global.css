@@ -12,14 +12,6 @@
 
 }
 
-canvas{
-    display: block;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
-
-
 body{
 
     background: url("./Planetes/Etoiles.png"), radial-gradient( #0e3035, #0E0F35, #36004c,#5c0153);

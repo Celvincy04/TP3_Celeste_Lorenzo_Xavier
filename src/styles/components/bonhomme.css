@@ -1,37 +1,15 @@
-.bonhommes{
+#monCanvas{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#monCanvas img{
     position: absolute;
     top: 0;
     left: 2000px;
-    scale: 0.5;
-}
-
-.bonhommeChiasse{
-    position: absolute;
-    top: 15px;
-    left: 970px;
-    scale: 0.5;
-    opacity: 0;
-}
-
-.bonhommeSaut{
-    position: absolute;
-    top: 15px;
-    left: 970px;
-    scale: 0.5;
-    opacity: 0;
-}
-
-.bonhommeGymnaste{
-    position: absolute;
-    top: 15px;
-    left: 970px;
-    scale: 0.5;
-    opacity: 0;
-}
-
-.bonhommeImmobile{
-    position: absolute;
-    top: 15px;
-    left: 970px;
-    scale: 0.5;
+    scale: 0.3;
+    z-index: 1;
 }
