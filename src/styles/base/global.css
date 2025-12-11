@@ -15,22 +15,45 @@
 
 body{
 
-    background: url("./Planetes/Etoiles.png"), linear-gradient(to top, #0E0F35, #36004c);
-    background-repeat: repeat;
+    background: url("./Planetes/Etoiles.png"), radial-gradient( #0e3035, #0E0F35, #36004c,#5c0153);
+    background-size: 110%;
     overflow-y: hidden;
+
+    animation-name: animationEspace;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+    
+    animation-play-state: running;
+
+}
+
+@keyframes animationEspace {
+    0% {
+        background-size: 110%;
+    }
+
+    50% {
+        background-size: 100%;
+    }
+
+    100% {
+        background-size: 110%;
+    }
 }
 
 .etoileFill01{
     position: absolute;
     top: -700px;
-    left: 700px;
+    left: 2500px;
 
 }
 
 .etoileFill02{
     position: absolute;
     top: -900px;
-    left: 2000px;
+    left: 3500px;
 
 
 }
@@ -45,14 +68,14 @@ body{
 .etoileFill04{
     position: absolute;
     top: -700px;
-    left: 5000px;
+    left: 6000px;
 
 }
 
 .etoileFill05{
     position: absolute;
     top: -900px;
-    left: 7500px;
+    left: 8500px;
 
 
 }
@@ -60,7 +83,7 @@ body{
 .etoileFill06{
     position: absolute;
     top: -700px;
-    left: 9000px;
+    left: 10000px;
 }
 
 @media (orientation: portrait) {
